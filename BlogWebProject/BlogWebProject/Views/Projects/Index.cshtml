@@ -1,0 +1,34 @@
+﻿@{
+
+}
+@model List<BlogWebProject.Models.Project>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="@Url.Content("~/css/projects.css")" />
+
+</head>
+<body>
+    <section class="projects">
+        <h1>My Projects</h1>
+        <div class="projects-container">
+            @foreach (var project in Model)
+            {
+                <div class="project">
+                    <a href="@project.ProjectURL">
+                        <img src="@project.Link">
+                        <h2>@project.Title</h2>
+                        <p>@project.Description</p>
+                    </a>
+                </div>
+            }
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/yourfontawesomekey.js" crossorigin="anonymous"></script>
+</body>
+</html>

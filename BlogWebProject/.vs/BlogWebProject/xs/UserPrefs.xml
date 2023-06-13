@@ -1,0 +1,84 @@
+﻿<Properties StartupConfiguration="{9D577BA6-620F-442E-9D41-5DEF52BA4BA2}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ServiceProject/Services/PostService.cs">
+    <Files>
+      <File FileName="BlogWebProject/Controllers/AboutController.cs" />
+      <File FileName="BlogWebProject/Controllers/BaseController.cs" />
+      <File FileName="BlogWebProject/Controllers/BlogController.cs" />
+      <File FileName="BlogWebProject/Controllers/CommentController.cs" />
+      <File FileName="BlogWebProject/Controllers/ContactController.cs" />
+      <File FileName="BlogWebProject/Controllers/HomeController.cs" />
+      <File FileName="BlogWebProject/Controllers/LoginController.cs" />
+      <File FileName="BlogWebProject/Controllers/ProjectsController.cs" />
+      <File FileName="BlogWebProject/Controllers/UserController.cs" />
+      <File FileName="BlogWebProject/Models/Authentication.cs" />
+      <File FileName="BlogWebProject/Models/ErrorViewModel.cs" />
+      <File FileName="BlogWebProject/Models/Project.cs" />
+      <File FileName="BlogWebProject/Views/About/Index.cshtml" />
+      <File FileName="BlogWebProject/Views/Home/Index.cshtml" />
+      <File FileName="BlogWebProject/Views/Home/Privacy.cshtml" />
+      <File FileName="BlogWebProject/Views/Blog/Index.cshtml" />
+      <File FileName="BlogWebProject/Views/Blog/Create.cshtml" />
+      <File FileName="BlogWebProject/Views/Blog/Delete.cshtml" />
+      <File FileName="BlogWebProject/Views/Blog/Details.cshtml" />
+      <File FileName="BlogWebProject/Views/Blog/Edit.cshtml" />
+      <File FileName="BlogWebProject/Views/Comment/Index.cshtml" />
+      <File FileName="BlogWebProject/Views/Comment/Create.cshtml" />
+      <File FileName="BlogWebProject/Views/Comment/Edit.cshtml" />
+      <File FileName="BlogWebProject/Views/Comment/Delete.cshtml" />
+      <File FileName="BlogWebProject/Views/Comment/Details.cshtml" />
+      <File FileName="BlogWebProject/Views/Contact/Index.cshtml" />
+      <File FileName="BlogWebProject/Views/Login/Index.cshtml" />
+      <File FileName="BlogWebProject/Views/Projects/Index.cshtml" />
+      <File FileName="BlogWebProject/Views/Shared/_Layout.cshtml" />
+      <File FileName="BlogWebProject/Views/Shared/_Layout.cshtml.css" />
+      <File FileName="BlogWebProject/Views/Shared/Error.cshtml" />
+      <File FileName="BlogWebProject/Views/User/Index.cshtml" />
+      <File FileName="BlogWebProject/Views/User/Create.cshtml" />
+      <File FileName="BlogWebProject/Views/User/Delete.cshtml" />
+      <File FileName="BlogWebProject/Views/User/Details.cshtml" />
+      <File FileName="BlogWebProject/Views/User/Edit.cshtml" />
+      <File FileName="BlogWebProject/Views/User/SignUp.cshtml" />
+      <File FileName="ServiceProject/Class1.cs" />
+      <File FileName="ServiceProject/Models/WebProjectContext.cs" />
+      <File FileName="BlogWebProject/Program.cs" />
+      <File FileName="ServiceProject/Services/UserService.cs" />
+      <File FileName="ServiceProject/ViewModels/CommentCE_VM.cs" />
+      <File FileName="ServiceProject/ViewModels/CommentVM.cs" />
+      <File FileName="ServiceProject/ViewModels/PostCE_VM.cs" />
+      <File FileName="ServiceProject/ViewModels/PostVM.cs" />
+      <File FileName="ServiceProject/ViewModels/UserVM.cs" />
+      <File FileName="ServiceProject/Services/PostService.cs" Line="86" Column="1" />
+      <File FileName="ServiceProject/Services/CommentService.cs" />
+      <File FileName="ServiceProject/Models/User.cs" />
+      <File FileName="ServiceProject/Models/Post.cs" />
+      <File FileName="ServiceProject/Models/Comment.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BlogWebProject" expanded="True">
+            <Node name="BlogWebProject" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="User" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="ServiceProject" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="PostService.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.BlogWebProject PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

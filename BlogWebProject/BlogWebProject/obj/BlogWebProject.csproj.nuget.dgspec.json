@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tolgaozkaya/Desktop/tolgaozkaya-201816054/BlogWebProject/BlogWebProject/BlogWebProject.csproj": {}
+  },
+  "projects": {
+    "/Users/tolgaozkaya/Desktop/tolgaozkaya-201816054/BlogWebProject/BlogWebProject/BlogWebProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tolgaozkaya/Desktop/tolgaozkaya-201816054/BlogWebProject/BlogWebProject/BlogWebProject.csproj",
+        "projectName": "BlogWebProject",
+        "projectPath": "/Users/tolgaozkaya/Desktop/tolgaozkaya-201816054/BlogWebProject/BlogWebProject/BlogWebProject.csproj",
+        "packagesPath": "/Users/tolgaozkaya/.nuget/packages/",
+        "outputPath": "/Users/tolgaozkaya/Desktop/tolgaozkaya-201816054/BlogWebProject/BlogWebProject/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tolgaozkaya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/tolgaozkaya/Desktop/tolgaozkaya-201816054/BlogWebProject/ServiceProject/ServiceProject.csproj": {
+                "projectPath": "/Users/tolgaozkaya/Desktop/tolgaozkaya-201816054/BlogWebProject/ServiceProject/ServiceProject.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/tolgaozkaya/Desktop/tolgaozkaya-201816054/BlogWebProject/ServiceProject/ServiceProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tolgaozkaya/Desktop/tolgaozkaya-201816054/BlogWebProject/ServiceProject/ServiceProject.csproj",
+        "projectName": "ServiceProject",
+        "projectPath": "/Users/tolgaozkaya/Desktop/tolgaozkaya-201816054/BlogWebProject/ServiceProject/ServiceProject.csproj",
+        "packagesPath": "/Users/tolgaozkaya/.nuget/packages/",
+        "outputPath": "/Users/tolgaozkaya/Desktop/tolgaozkaya-201816054/BlogWebProject/ServiceProject/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tolgaozkaya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

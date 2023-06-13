@@ -1,0 +1,39 @@
+﻿@model LoginVM
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-km+Iy5E5cte3q1bQ2qxS+jSlnnI+JmwzLPcqzfNFF1L4IK+OhLxKLz0ACatS8j2z1i3k60lfD/JlI4l4tR46Rw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="@Url.Content("~/css/login.css")" />
+</head>
+<body>
+    <div class="container">
+        @using (Html.BeginForm("Index", "Login", FormMethod.Post))
+        {
+            <h1>Login</h1>
+            <div class="form-control">
+                @Html.LabelFor(model => model.UserName)
+                @Html.TextBoxFor(model => model.UserName, new { @placeholder = "Enter your username", @required = "required" })
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="form-control">
+                @Html.LabelFor(model => model.Password)
+                @Html.PasswordFor(model => model.Password, new { @placeholder = "Enter your password", @required = "required" })
+                <i class="fas fa-lock"></i>
+            </div>
+            <button class="btn" type="submit">Login</button>
+            <button class="btn" type="submit" onclick="location.href='@Url.Action("SignUp", "User")'">Sign Up</button>
+
+            <div class="alert alert-danger">
+                @TempData["Mesaj"]
+            </div>
+        }
+    </div>
+
+    <script src="Login.js"></script>
+</body>
+</html>

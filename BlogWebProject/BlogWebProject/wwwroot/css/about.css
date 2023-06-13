@@ -1,0 +1,117 @@
+﻿/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+    line-height: 1.5;
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+/* About */
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+
+#skills ul {
+    list-style: none;
+}
+
+#skills .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 10px;
+}
+
+    #skills .card:hover {
+        transform: translateY(-10px);
+    }
+
+    #skills .card i {
+        margin-bottom: 1rem;
+    }
+
+    #skills .card h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+#education .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+    #education .card:hover {
+        transform: translateY(-10px);
+    }
+
+    #education .card i {
+        margin-bottom: 1rem;
+    }
+
+    #education .card h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+
+
+#courses .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+    #courses .card:hover {
+        transform: translateY(-10px);
+    }
+
+    #courses .card i {
+        margin-bottom: 1rem;
+    }
+
+    #courses .card h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }

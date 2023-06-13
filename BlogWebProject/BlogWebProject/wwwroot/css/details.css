@@ -1,0 +1,75 @@
+﻿/* details.css */
+
+/* Genel stiller */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: #666;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.col-sm-2 {
+    font-weight: bold;
+}
+
+/* Bağlantı stilleri */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+
+/* Diğer stiller */
+hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+dd {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    margin-top:5px;
+}
+
+.content {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    height:200px;
+}
+
+dt {
+    margin-top: 10px;
+}
+
+.action-links {
+    margin-top: 20px;
+}
+
+    .action-links a {
+        margin-right: 10px;
+    }

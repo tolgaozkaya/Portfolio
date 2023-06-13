@@ -1,0 +1,120 @@
+﻿/* delete.css */
+
+/* Genel stiller */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.col-sm-2 {
+    font-weight: bold;
+}
+
+/* Form stilleri */
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-text {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+    .btn-danger:hover {
+        background-color: #c82333;
+        border-color: #bd2130;
+        cursor: pointer;
+    }
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+    border-color: #6c757d;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+        border-color: #545b62;
+        cursor: pointer;
+    }
+
+/* Bağlantı stilleri */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+
+/* Diğer stiller */
+hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    height: 200px;
+}
+
+dd {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+dt {
+    margin-top: 10px;
+}

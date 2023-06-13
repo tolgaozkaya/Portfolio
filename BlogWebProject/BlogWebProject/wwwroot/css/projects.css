@@ -1,0 +1,84 @@
+﻿/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Global */
+body {
+    line-height: 1.6;
+    background-color: #f2f2f2;
+}
+
+.projects-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Projects page*/
+.projects {
+    padding: 50px;
+    text-align: center;
+}
+
+    .projects h1 {
+        margin-bottom: 45px;
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 18px;
+        margin-top: 0px;
+    }
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 30px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+    .project:hover {
+        transform: scale(1.05);
+    }
+
+    .project img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .project h2 {
+        padding: 15px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .project p {
+        padding: 20px;
+        font-size: 16px;
+        color: #666;
+    }

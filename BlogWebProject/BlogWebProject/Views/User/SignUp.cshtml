@@ -1,0 +1,49 @@
+﻿@model ServiceProject.ViewModels.UserVM
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-km+Iy5E5cte3q1bQ2qxS+jSlnnI+JmwzLPcqzfNFF1L4IK+OhLxKLz0ACatS8j2z1i3k60lfD/JlI4l4tR46Rw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="@Url.Content("~/css/signup.css")" />
+</head>
+<body>
+    <div class="container">
+        @using (Html.BeginForm("SignUp", "User", FormMethod.Post))
+        {
+            <h1>Sign Up</h1>
+            <div class="form-control">
+                @Html.LabelFor(model => model.UserName)
+                @Html.TextBoxFor(model => model.UserName, new { @placeholder = "Enter your username", @required = "required" })
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="form-control">
+                @Html.LabelFor(model => model.Email)
+                @Html.TextBoxFor(model => model.Email, new { @placeholder = "Enter your email", @required = "required", @type = "email" })
+                <i class="fas fa-envelope"></i>
+            </div>
+            <div class="form-control">
+                @Html.LabelFor(model => model.Password)
+                @Html.PasswordFor(model => model.Password, new { @placeholder = "Enter your password", @required = "required" })
+                <i class="fas fa-lock"></i>
+            </div>
+            <div class="form-control">
+                @Html.LabelFor(model => model.FirstName)
+                @Html.TextBoxFor(model => model.FirstName, new { @placeholder = "Enter your first name" })
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="form-control">
+                @Html.LabelFor(model => model.LastName)
+                @Html.TextBoxFor(model => model.LastName, new { @placeholder = "Enter your last name" })
+                <i class="fas fa-user"></i>
+            </div>
+            <button class="btn" type="submit">Sign Up</button>
+        }
+    </div>
+
+    <script src="Signup.js"></script>
+</body>
+</html>

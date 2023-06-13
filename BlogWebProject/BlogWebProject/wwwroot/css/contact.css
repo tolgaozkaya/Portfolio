@@ -1,0 +1,84 @@
+﻿/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Global */
+
+body {
+    line-height: 1.6;
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Contact */
+.contact {
+    padding: 0 0;
+}
+
+    .contact h2 {
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 12px;
+        margin-top: -10px;
+    }
+
+.contact-form {
+    max-width: 600px;
+    margin: 108px auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    margin-bottom: 16px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        width: 100%;
+        font-size: 16px;
+        background-color: #f5f5f5;
+    }
+
+    .form-group textarea {
+        height: 200px;
+    }
+
+    .form-group button {
+        background-color: #1abc9c;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .form-group button:hover {
+            background-color: #148f77;
+        }
